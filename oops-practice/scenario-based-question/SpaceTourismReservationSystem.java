@@ -24,12 +24,10 @@ class SpaceTourist {
     }
 }
 public class SpaceTourismReservationSystem {
-    public static void main(String[] args) {
+        public static void main(String[] args) {
         SpaceTourist tourist = new SpaceTourist("Nishant", 5);
-
         tourist.updateSeatNumber(10)
                .updateSeatNumber(15);
-
         tourist.displayDetails();
     }
 }
